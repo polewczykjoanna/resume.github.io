@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: monospace;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #9a2518;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #9a2518;
 }
 
 h1,
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     font-weight: 700;
 }
 
@@ -72,7 +72,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -321,14 +321,14 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 100px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: monospace;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -365,8 +365,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: #9a2518; /* Fallback when no plugin support */
+    background: rgba(154, 37, 24 , .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -408,9 +408,8 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: monospace;
     font-size: 16px;
-    font-style: italic;
 }
 
 #portfolio * {
@@ -489,7 +488,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #f1f1f1;
 }
 
 .timeline>li .timeline-image h4 {
@@ -682,28 +681,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     font-weight: 700;
     color: #bbb;
 }
@@ -720,7 +719,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     line-height: 40px;
 }
 
@@ -728,7 +727,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: monospace;
     line-height: 40px;
 }
 
@@ -777,7 +776,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .portfolio-modal .modal-content p {
@@ -786,7 +785,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: monospace;
     font-size: 16px;
     font-style: italic;
 }
@@ -837,12 +836,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: grey;
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: grey;
 }
 
 img::selection {

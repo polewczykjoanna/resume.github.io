@@ -1,15 +1,13 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Fraunhofer-Institut für Kommunikation, Informationsverarbeitung und Ergonomie FKIE
+subtitle: May 2018 - Present
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: fkie.png
+thumbnail: fkie.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: <b>Machine learning engineer/Software Developer</b> (Oct 2021 - Present) <br /><br />• Developed, improved, evaluated, and documented various machine learning approaches to solve problems in the aviation industry. <br />• Designed and fully developed Java Spring/Vaadin/Java Script application for handling and visualization of machine learning approaches. <br /><br /><br /> <b>Research Assistant/Software Developer</b> (May 2018 - Oct 2021) <br /><br />• Researched, designed, and developed a Python LSTM neural network application using the Pytorch framework. Worked on time series forecasting and ETA predictions. <br />• Designed and developed a Java application for data management for shipping industry using the Vaadin framework.
+
 
 ---
