@@ -1,5 +1,5 @@
 ---
-title: Fraunhofer-Institut für Kommunikation, Informationsverarbeitung und Ergonomie FKIE
+title: Fraunhofer FKIE
 subtitle: May 2018 - Present
 layout: default
 modal-id: 1
