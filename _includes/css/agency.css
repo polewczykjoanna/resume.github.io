@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: #9a2518;
 }
 
 p {
@@ -68,6 +68,24 @@ h6 {
 .bg-darkest-gray {
     background-color: #222;
 }
+
+.skills-background {
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/computer_background.png');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container-service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(255,255,255, .85);
+}
+
 
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
@@ -127,6 +145,18 @@ fieldset[disabled] .btn-primary.active {
     font-size: 50px;
     font-weight: 700;
     color: grey;
+}
+
+.btn-contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-color: #9a2518;
 }
 
 .btn-xl:hover,
@@ -337,7 +367,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -649,9 +679,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
