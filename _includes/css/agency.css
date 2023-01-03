@@ -739,6 +739,9 @@ section#contact:-ms-input-placeholder {
     color: #bbb;
 }
 
+.contact-message {
+}
+
 section#contact .text-danger {
     color: #e74c3c;
 }
