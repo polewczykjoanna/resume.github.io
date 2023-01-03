@@ -687,6 +687,7 @@ section#contact .section-heading {
 
 section#contact .form-group {
     margin-bottom: 25px;
+    color: black;
 }
 
 section#contact .form-group input,
@@ -696,14 +697,17 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    color: black;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    color: black;
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #9a2518;
+    color: black;
     box-shadow: none;
 }
 
@@ -711,7 +715,7 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: monospace;
     font-weight: 700;
-    color: #bbb;
+    color: black;
 }
 
 section#contact:-moz-placeholder {
